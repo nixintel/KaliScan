@@ -44,3 +44,7 @@ To access the KaliScan shell without starting a scan run the following:
 ```docker run -it -v /path/to/local/folder:/home/outputs kaliscan```
 
 The ```quickscan.sh``` bash script can be edited as needed. There is full access to the Kali repositories so any additional applications can be installed with ```apt``` as needed.
+
+### Acknowledgements
+
+The idea and initial work on this script was done by [Salaheldinaz.](https://github.com/salaheldinaz)
