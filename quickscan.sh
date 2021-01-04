@@ -1,4 +1,7 @@
-#Create domain variable from argument passed
+whois $1 > /home/outputs/whois.txt
+
+echo "WHOIS record saved."
+echo " "
 
 
 sublist3r -d $1 -v --output /home/outputs/subdomains.txt
