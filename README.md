@@ -27,7 +27,7 @@ Clone the repository:
 
 Build the docker image
 
-```docker build -t kaliscan .```
+```cd kaliscan && docker build -t kaliscan .```
 
 Create a folder on your local machine to store the output documents.
 
@@ -47,4 +47,4 @@ The ```quickscan.sh``` bash script can be edited as needed. There is full access
 
 ### Acknowledgements
 
-The idea and initial work on this script was done by [Salaheldinaz.](https://github.com/salaheldinaz)
+The idea and initial work on this script was done by [Salaheldinaz](https://github.com/salaheldinaz).
